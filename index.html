@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  
+  <style>
+    :root {
+      --slate-300: hsl(212, 45%, 89%);
+      --slate-500: hsl(216, 15%, 48%);
+      --slate-900: hsl(218, 44%, 22%);
+
+      --text-1: 700 1.375rem/1.2 "Outfit", sans-serif;
+      --text-2: 400 0.9375rem/1.4 "Outfit", sans-serif;
+
+      --text-1-spacing: 0px;
+      --text-2-spacing: 0.2px;
+    }
+
+    body {
+      height: 100dvh;
+      background-color: var(--slate-300);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    img {
+      border-radius: 10px;
+      height: 288px;
+    }
+    
+    section {
+      background: #fff;
+      padding: 16px;
+      border-radius: 20px;
+      width: 288px;
+    }
+
+    section > div {
+      padding: 16px;
+      text-align: center;
+      max-width: max-content;
+    }
+    
+    h1 {
+      font: var(--text-1);
+      color: var(--slate-900);
+    }
+
+    p {
+      font: var(--text-2);
+      color: var(--slate-500);
+      letter-spacing: var(--text-2-spacing);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <img src="/images/image-qr-code.png" alt="qr code">
+      <div>
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </section>
+  </main>
+  
+</body>
+</html>
